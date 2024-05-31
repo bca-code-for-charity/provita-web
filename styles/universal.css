@@ -59,6 +59,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 3fr;
     column-gap: 50px;
+    border-top: 2px solid #f6f6f6;
 }
 
 .footer-left, .footer-right {
