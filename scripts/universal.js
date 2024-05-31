@@ -6,3 +6,15 @@ window.addEventListener("scroll", () => {
     else
         nav.classList.remove("sticky");
 })
+
+document.addEventListener("scroll", () => {
+    document.querySelectorAll(".revealing").forEach((e) => {
+        if (window.innerHeight  > e.getBoundingClientRect().top)
+            e.classList.add("active");
+    });
+})
+
+document.querySelectorAll(".revealing").forEach((e) => {
+    if (window.innerHeight  > e.getBoundingClientRect().top)
+        e.classList.add("active");
+});
