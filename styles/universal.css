@@ -12,19 +12,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-
     transition: all .3s;
-}
-
-nav.sticky {
+    background-color: rgba(255,255,255,0);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 
-    background-color: #f6f6f6;
+}
 
+nav.sticky {
+    background-color: #fff;
     -webkit-box-shadow: 0px 6px 16px 1px var(--box-shadow);
     -moz-box-shadow: 0px 6px 16px 1px var(--box-shadow);
     box-shadow: 0px 6px 16px 1px var(--box-shadow);
