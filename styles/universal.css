@@ -17,9 +17,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 200;
     opacity: 1 !important;
     background-color: #ffffff00;
-    z-index: 1;
 }
 
 nav.sticky {
