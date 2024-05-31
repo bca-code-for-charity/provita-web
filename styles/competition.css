@@ -1,0 +1,9 @@
+.content-top {
+    margin-top: 10vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.content-top .image img {
+    max-width: 100%;
+}
