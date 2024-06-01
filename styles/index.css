@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 40px 100px;
-    background-image: url("/images/index/index.png");
+    background-image: url("images/index/index.png");
     background-size: cover;
     width: 99vw;
     height: 100vh;
@@ -116,7 +116,7 @@
 }
 
 .midInformation .image {
-    background-image: url("/images/index/index-2.jpg");
+    background-image: url("images/index/index-2.jpg");
     background-position: center;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .benefitImage {
-    background-image: url("/images/index/index-3.png");
+    background-image: url("images/index/index-3.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,7 +281,7 @@
 }
 
 .sectionImg {
-    background-image: url("/images/index/index-4.png");
+    background-image: url("images/index/index-4.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
