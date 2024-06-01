@@ -185,6 +185,7 @@ nav .right svg {
         padding: 20px;
         width: 100%;
         box-sizing: border-box;
+        border-bottom: none !important;
     }
 
     nav .right a {

@@ -3,88 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future Projects</title>
+    <title>Our Projects</title>
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/colors.css">       
+    <link rel="stylesheet" href="styles/universal.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="stylesheet" href="styles/projects.css">
+
     <style>
-        .title {
-            text-align: center;
+        .row {
+            grid-template-columns: 5fr 7fr;
         }
 
-        body {
-            background-color: gainsboro;
-            margin: 10%;
+        .row h4 {
+            text-align: right;
         }
 
-        .product {
-            background-color: whitesmoke;
-            margin: 5%;
-            padding: 1%;
-            display: flex;
+        .col.s7 {
+            padding: 0 20px 20px 20px;
         }
-
-        .productheader {
-            text-align:right;
-            font-size: 30px;
-            margin-bottom: 25px;
-        }
-
-        .productinfo {
-            padding: 50px;
-        }
-
-        .productdesc {
-            font-size: 20px;
-        }
-
-        .productimage {
-            margin: 50px 0px 50px 50px;
-        }
-
     </style>
 </head>
 <body>
-    <div class="title">
-        <h3>FUTURE PRODUCTS</h3>
-        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+    <nav class="active">
+        <div class="left">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <div class="right">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link active">Future Projects</a>
+            <a href="competition.html" class="nav-link">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="navDropDownBtn">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/>
+            </svg>
+        </div>
+        <div class="dropdown">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link active">Future Projects</a>
+            <a href="competition.html" class="nav-link">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+    </nav>
+
+    <p class="title">FUTURE PROJECTS</p>
+    <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+    <div class="row revealing">
+        <div class="col s5">
+            <div class="img1">
+                <img class="responsive-img" src="/images/project/project1.png"> 
+            </div>
+        </div> 
+        <div class="col s7">
+            <div class="project-desc1">
+                <h4>MeshCare</h4>
+                <p>One of MeshCare's primary objectives is to engineer meshes that effectively prevent adhesions in delicate anatomical regions. Placing the mesh on the incorrect side of the body, particularly where intestines reside, poses an imminent risk to the patient. Therefore, meticulous attention is devoted to ensuring that the mesh is positioned safely, mitigating potential hazards. MeshCare's research team is dedicated to developing an innovative membrane mesh hybrid that boasts biodegradability.</p>  
+            </div>
+        </div>
+    </div>
+    <div class="row revealing">
+        <div class="col s5">
+            <div class="img2">
+                <img class="responsive-img" src="/images/project/project2.png"> 
+            </div>
+        </div> 
+        <div class="col s7">
+            <div class="project-desc2">
+                <h4>RepliVax</h4>
+                <p>RepliVax is a groundbreaking oral vaccine aimed at combating the West Nile virus, particularly in underserved regions of Africa. Utilizing electroporation, it punctures cell membranes to deliver the drug effectively. However, challenges persist in delivering potent medications to sub-Saharan Africa due to the vulnerability of the current cold chain transportation method to temperature fluctuations, which can degrade the drug. The RepliVax team is actively working on enhancing cold chain protocols to ensure efficient drug delivery and bolster healthcare infrastructure in the region.</p>  
+            </div>
+        </div>
+    </div>
+    <div class="row revealing">
+        <div class="col s5">
+            <div class="img3">
+                <img class="responsive-img" src="/images/project/project3.png"> 
+            </div>
+        </div> 
+        <div class="col s7">
+            <div class="project-desc3">
+                <h4>VitaClick</h4>
+                <p>VitaClick is a triple-click injector system for myocardial infarctions. It has two chamber systems, which is a solid and liquid component, that are broken together to make the drug. This system extends the shelf life of the product. The group is currently working on the Auto CAD, which is known as computer aid design. They’re creating the triple-click injector system parts. In order to 3D print it, they need to scale it to an accurate measurement and make new designs and parts. The legal sector has found the competitors of VitaClick and is waiting for the research sector to have the design so they can make the design patent.</p>  
+            </div>
+        </div>
+    </div>
+    <div class="row revealing">
+        <div class="col s5">
+            <div class="img4">
+                <img class="responsive-img" src="/images/project/project4.png"> 
+            </div>
+        </div> 
+        <div class="col s7">
+            <div class="project-desc4">
+                <h4>PatchAid</h4>
+                <p>PatchAid is a transdermal patch used to aid hypertrophic scarring management. It prevents HTS from occurring after burns. Myofibroblasts are the cells that produce excess collagen when they receive Substance P and resultantly cause hypertrophic scarring, so the patch inhibits the receptors of Substance P to prevent hypertrophic scarring from occurring.</p>  
+            </div>
+        </div>
     </div>
 
-    <div class="product">
-        <div class="productimage">
-            <img src="https://www.eastbaypaintcenter.com/cdn/shop/products/879EBF_800x.png?v=1611254330" alt="hi" width="300px">
+    <footer>
+        <div class="footer-left">
+            <div class="column">
+                <img src="images/logo.png" alt="">
+                <h2>The Only Student-Run Pharmaceutical Company in the Nation, Located at the Bergen County Academies in
+                    Hackensack, NJ.</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" class="footer-icon"
+                    onclick="window.location.href = 'https://www.instagram.com/provita_pharma/'">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10.333 3.644a.25.25 0 1 1 0-.5m0 .5a.25.25 0 1 0 0-.5" />
+                        <path
+                            d="M.858 3.431A2.573 2.573 0 0 1 3.431.858h6.862a2.573 2.573 0 0 1 2.573 2.573v6.862a2.573 2.573 0 0 1-2.573 2.573H3.43a2.573 2.573 0 0 1-2.573-2.573V3.43Z" />
+                        <path d="M4.312 6.862a2.55 2.55 0 1 0 5.1 0a2.55 2.55 0 1 0-5.1 0" />
+                    </g>
+                </svg>
+            </div>
         </div>
-        <div class="productinfo">
-            <div class="productheader">MeshCare</div>
-            <div class="productdesc">One of the main goals of MeshCare is to try to make meshes that prevent adhesions on the wrong side of the body. The mesh could only go on one side because if it goes onto the side with intestines, the patient is in extreme danger risk. Additionally, the team is working to make a membrane mesh hybrid and biodegradable because that will lower the chances of complications during MeshCare's usage.</div>
+        <div class="footer-right">
+            <div class="column">
+                <h1>USEFUL LINKS</h1>
+                <a href="index.html" class="footer-link">> Home</a>
+                <a href="ourProjects.html" class="footer-link">> Our Projects</a>
+                <a href="futureProjects.html" class="footer-link active">> Future Projects</a>
+                <a href="competition.html" class="footer-link">> Provita Competition</a>
+                <a href="ourLeadership.html" class="footer-link">> Our Leadership</a>
+                <a href="contact.html" class="footer-link">> Contact Us</a>
+            </div>
+            <div class="column">
+                <h1>CONTACT US</h1>
+                <h2 class="footer-link">200 Hackensack Avenue, Hackensack, New Jersey 07670</h2>
+                <h2 class="footer-link">provitapharmeceuticals@gmail.com</h2>
+            </div>
         </div>
-    </div>
+    </footer>
 
-    <div class="product">
-        <div class="productimage">
-            <img src="https://www.eastbaypaintcenter.com/cdn/shop/products/879EBF_800x.png?v=1611254330" alt="hi" width="300px">
-        </div>
-        <div class="productinfo">
-            <div class="productheader">RepliVax</div>
-            <div class="productdesc">RepliVax is a vaccine intended to treat the West Nile virus, specifically in third world countries in Africa. It will be consumed orally and will use electroporation which makes holes in the cell membranes to get the drug into cells. The bigger picture issue at hand is that there are significant challenges in getting potent drugs to the sub-Saharan region of Africa. The key weakness of the current cold chain transportation method is that during certain parts of the process, the cold temperature cannot be maintained, therefore degrading the drug. Currently, the team is working on improving the cold chain method and deliver potent drugs to Africa without losing the drugs' efficiency.</div>
-        </div>
-    </div>
-
-    <div class="product">
-        <div class="productimage">
-            <img src="https://www.eastbaypaintcenter.com/cdn/shop/products/879EBF_800x.png?v=1611254330" alt="hi" width="300px">
-        </div>
-        <div class="productinfo">
-            <div class="productheader">VitaClick</div>
-            <div class="productdesc">VitaClick is a triple-click injector system for myocardial infarctions. It has two chamber systems, which is a solid and liquid component, that are broken together to make the drug. This system extends the shelf life of the product. The group is currently working on the Auto CAD, which is known as computer aid design. They’re creating the triple-click injector system parts. In order to 3D print it, they need to scale it to an accurate measurement and make new designs and parts. The legal sector has found the competitors of VitaClick and is waiting for the research sector to have the design so they can make the design patent.</div>
-        </div>
-    </div>
-
-    <div class="product">
-        <div class="productimage">
-            <img src="https://www.eastbaypaintcenter.com/cdn/shop/products/879EBF_800x.png?v=1611254330" alt="hi" width="300px">
-        </div>
-        <div class="productinfo">
-            <div class="productheader">PatchAid</div>
-            <div class="productdesc">PatchAid is a transdermal patch used to aid hypertrophic scarring management. It prevents HTS from occurring after burns. Myofibroblasts are the cells that produce excess collagen when they receive Substance P and resultantly cause hypertrophic scarring, so the patch inhibits the receptors of Substance P to prevent hypertrophic scarring from occurring.</div>
-        </div>
-    </div>
+    <script src="scripts/universal.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
