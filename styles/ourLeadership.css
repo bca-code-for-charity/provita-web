@@ -85,6 +85,10 @@ h2 {
     margin-right: 10px;
 }
 
+.icon:hover {
+    cursor: pointer;
+}
+
 .footer {
     margin-top: 150px;
     width: 1920px;
