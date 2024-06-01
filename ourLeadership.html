@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
@@ -18,131 +18,145 @@
 </head>
 
 <body>
-    <div class="site">
-        <nav>
-            <div class="left">
-                <img src="images/logo.png" alt="" class="logo">
-            </div>
-            <div class="right">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="ourProjects.html" class="nav-link">Our Projects</a>
-                <a href="futureProjects.html" class="nav-link">Future Projects</a>
-                <a href="competition.html" class="nav-link">Provita Competition</a>
-                <a href="ourLeadership.html" class="nav-link active">Our Leadership</a>
-                <a href="contact.html" class="nav-link">Contact Us</a>
-            </div>
-        </nav>
+    <nav class="active">
+        <div class="left">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <div class="right">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link">Future Projects</a>
+            <a href="competition.html" class="nav-link">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link active">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
 
-        <p class="title">OUR LEADERSHIP</p>
-        <p class="slogan">Introducing our visionary leaders who
-            drive innovation and guide our team to success</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="navDropDownBtn">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M5 8h22M5 16h22M5 24h22" />
+            </svg>
+        </div>
+        <div class="dropdown">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link">Future Projects</a>
+            <a href="competition.html" class="nav-link">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link active">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+    </nav>
 
-        <div class="leaders">
-            <div class="leader">
-                <img src="images/index/index-1.png" alt="" class="picture">
-                <div class="leader-info">
-                    <h1>CEO</h1>
-                    <h2>Insert Name Here</h2>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis
-                        aute irure dolor in reprehenderit in.</p>
-                    <div class="icons">
-                        <img class="icon" class="insta" data-link="https://instagram.com/provitasupplements/" src="images/ourLeadership/instagram.png">
-                        <img class="icon" class="linked" data-link="https://instagram.com/provitasupplements/" src="images/ourLeadership/linkedin.png">
-                        <img class="icon" class="email" data-link="https://instagram.com/provitasupplements/" src="images/ourLeadership/envelope.png">
-                    </div>
-                </div>
-            </div>
-            <div class="leader">
-                <img src="images/index/index-1.png" alt="" class="picture">
-                <div class="leader-info">
-                    <h1>CSO</h1>
-                    <h2>Insert Name Here</h2>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis
-                        aute irure dolor in reprehenderit in.</p>
-                    <div class="icons">
-                        <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
-                        <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
-                        <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
-                    </div>
-                </div>
-            </div>
-            <div class="leader">
-                <img src="images/index/index-1.png" alt="" class="picture">
-                <div class="leader-info">
-                    <h1>CFO</h1>
-                    <h2>Insert Name Here</h2>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis
-                        aute irure dolor in reprehenderit in.</p>
-                    <div class="icons">
-                        <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
-                        <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
-                        <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
-                    </div>
-                </div>
-            </div>
-            <div class="leader">
-                <img src="images/index/index-1.png" alt="" class="picture">
-                <div class="leader-info">
-                    <h1>CTO</h1>
-                    <h2>Insert Name Here</h2>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis
-                        aute irure dolor in reprehenderit in.</p>
-                    <div class="icons">
-                        <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
-                        <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
-                        <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
-                    </div>
+    <p class="title">OUR LEADERSHIP</p>
+    <p class="slogan">Introducing our visionary leaders who
+        drive innovation and guide our team to success</p>
+
+    <div class="leaders">
+        <div class="leader">
+            <img src="images/index/index-1.png" alt="" class="picture">
+            <div class="leader-info">
+                <h1>CEO</h1>
+                <h2>Insert Name Here</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in.</p>
+                <div class="icons">
+                    <img class="icon" class="insta" data-link="https://instagram.com/provitasupplements/"
+                        src="images/ourLeadership/instagram.png">
+                    <img class="icon" class="linked" data-link="https://instagram.com/provitasupplements/"
+                        src="images/ourLeadership/linkedin.png">
+                    <img class="icon" class="email" data-link="https://instagram.com/provitasupplements/"
+                        src="images/ourLeadership/envelope.png">
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="footer-left">
-                <div class="column">
-                    <img src="images/logo.png" alt="">
-                    <h2>The Only Student-Run Pharmaceutical Company in the Nation, Located at the Bergen County
-                        Academies in
-                        Hackensack, NJ.</h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" class="footer-icon"
-                        onclick="window.location.href = 'https://www.instagram.com/provita_pharma/'">
-                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M10.333 3.644a.25.25 0 1 1 0-.5m0 .5a.25.25 0 1 0 0-.5" />
-                            <path
-                                d="M.858 3.431A2.573 2.573 0 0 1 3.431.858h6.862a2.573 2.573 0 0 1 2.573 2.573v6.862a2.573 2.573 0 0 1-2.573 2.573H3.43a2.573 2.573 0 0 1-2.573-2.573V3.43Z" />
-                            <path d="M4.312 6.862a2.55 2.55 0 1 0 5.1 0a2.55 2.55 0 1 0-5.1 0" />
-                        </g>
-                    </svg>
+        <div class="leader">
+            <img src="images/index/index-1.png" alt="" class="picture">
+            <div class="leader-info">
+                <h1>CSO</h1>
+                <h2>Insert Name Here</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in.</p>
+                <div class="icons">
+                    <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
+                    <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
+                    <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
                 </div>
             </div>
-            <div class="footer-right">
-                <div class="column">
-                    <h1>USEFUL LINKS</h1>
-                    <a href="index.html" class="footer-link">> Home</a>
-                    <a href="ourProjects.html" class="footer-link">> Our Projects</a>
-                    <a href="futureProjects.html" class="footer-link">> Future Projects</a>
-                    <a href="competition.html" class="footer-link">> Provita Competition</a>
-                    <a href="ourLeadership.html" class="footer-link active">> Our Leadership</a>
-                    <a href="contact.html" class="footer-link">> Contact Us</a>
-                </div>
-                <div class="column">
-                    <h1>CONTACT US</h1>
-                    <h2 class="footer-link">200 Hackensack Avenue, Hackensack, New Jersey 07670</h2>
-                    <h2 class="footer-link">provitapharmeceuticals@gmail.com</h2>
+        </div>
+        <div class="leader">
+            <img src="images/index/index-1.png" alt="" class="picture">
+            <div class="leader-info">
+                <h1>CFO</h1>
+                <h2>Insert Name Here</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in.</p>
+                <div class="icons">
+                    <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
+                    <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
+                    <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="leader">
+            <img src="images/index/index-1.png" alt="" class="picture">
+            <div class="leader-info">
+                <h1>CTO</h1>
+                <h2>Insert Name Here</h2>
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in.</p>
+                <div class="icons">
+                    <img class="icon" class="insta" data-link="" src="images/ourLeadership/instagram.png">
+                    <img class="icon" class="linked" data-link="" src="images/ourLeadership/linkedin.png">
+                    <img class="icon" class="email" data-link="" src="images/ourLeadership/envelope.png">
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer-left">
+            <div class="column">
+                <img src="images/logo.png" alt="">
+                <h2>The Only Student-Run Pharmaceutical Company in the Nation, Located at the Bergen County
+                    Academies in
+                    Hackensack, NJ.</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" class="footer-icon"
+                    onclick="window.location.href = 'https://www.instagram.com/provita_pharma/'">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10.333 3.644a.25.25 0 1 1 0-.5m0 .5a.25.25 0 1 0 0-.5" />
+                        <path
+                            d="M.858 3.431A2.573 2.573 0 0 1 3.431.858h6.862a2.573 2.573 0 0 1 2.573 2.573v6.862a2.573 2.573 0 0 1-2.573 2.573H3.43a2.573 2.573 0 0 1-2.573-2.573V3.43Z" />
+                        <path d="M4.312 6.862a2.55 2.55 0 1 0 5.1 0a2.55 2.55 0 1 0-5.1 0" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="column">
+                <h1>USEFUL LINKS</h1>
+                <a href="index.html" class="footer-link">> Home</a>
+                <a href="ourProjects.html" class="footer-link">> Our Projects</a>
+                <a href="futureProjects.html" class="footer-link">> Future Projects</a>
+                <a href="competition.html" class="footer-link">> Provita Competition</a>
+                <a href="ourLeadership.html" class="footer-link active">> Our Leadership</a>
+                <a href="contact.html" class="footer-link">> Contact Us</a>
+            </div>
+            <div class="column">
+                <h1>CONTACT US</h1>
+                <h2 class="footer-link">200 Hackensack Avenue, Hackensack, New Jersey 07670</h2>
+                <h2 class="footer-link">provitapharmeceuticals@gmail.com</h2>
+            </div>
+        </div>
+    </footer>
 
     <script src="scripts/universal.js"></script>
     <script src="scripts/leadership.js"></script>
