@@ -13,34 +13,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/styles/competition.css">
     <link rel="stylesheet" href="/styles/colors.css">
     <link rel="stylesheet" href="/styles/universal.css">
+
+    <link rel="stylesheet" href="/styles/competition.css">
     <link rel="stylesheet" href="/styles/carousel.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="active">
         <div class="left">
-            <img src="/images/logo.png" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo">
         </div>
         <div class="right">
-            <a href="/index.html" class="nav-link active">Home</a>
-            <a href="/ourProjects.html" class="nav-link">Our Projects</a>
-            <a href="/futureProjects.html" class="nav-link">Future Projects</a>
-            <a href="/competition.html" class="nav-link">Provita Competition</a>
-            <a href="/ourLeadership.html" class="nav-link">Our Leadership</a>
-            <a href="/contact.html" class="nav-link">Contact Us</a>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link">Future Projects</a>
+            <a href="competition.html" class="nav-link active">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="navDropDownBtn">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/>
+            </svg>
+        </div>
+        <div class="dropdown">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="ourProjects.html" class="nav-link">Our Projects</a>
+            <a href="futureProjects.html" class="nav-link">Future Projects</a>
+            <a href="competition.html" class="nav-link active">Provita Competition</a>
+            <a href="ourLeadership.html" class="nav-link">Our Leadership</a>
+            <a href="contact.html" class="nav-link">Contact Us</a>
         </div>
     </nav>
 
-    <div class="content-top">
+    <p class="title">PROVITA COMPETITION</p>
+    <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+    <div class="about">
+        <div class="text">
+            <h1>About Our Competition</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+        </div>
         <div class="image">
-            <!-- TODO: replace this image with the one that says PROVITA COMPETITION at the top -->
-            <img src="/images/project/title.png" alt="">
+            <img src="/images/index/index-1.png" alt="">
         </div>
     </div>
 
+
+    <h1 class="entriesTitle">View Last Year's Entries</h1>
     <div class="carousel">
 
         <div class="carousel-button carousel-button-left">
@@ -151,14 +172,23 @@
         </div>
     </div>
 
-    <div style="margin-bottom:100vh">
-        <!-- TODO: delete this div, made for testing -->
+    <h1 class="provitaCompetition">Join us in this year’s Provita Competition</h1>
+
+    <div class="competitionInfo">
+        <div class="image">
+            <img src="/images/competition/image.png" alt="">
+        </div>
+        <div class="buttons">
+            <a href="" class="enrollment">Enrollment</a>
+            <a href="" class="submission">Submission</a>
+            <a href="" class="payment">Payment</a>
+        </div>
     </div>
 
     <footer>
         <div class="footer-left">
             <div class="column">
-                <img src="/images/index/logo.png" alt="">
+                <img src="/images/logo.png" alt="">
                 <h2>The Only Student-Run Pharmaceutical Company in the Nation, Located at the Bergen County Academies in
                     Hackensack, NJ.</h2>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" class="footer-icon"
@@ -175,10 +205,10 @@
         <div class="footer-right">
             <div class="column">
                 <h1>USEFUL LINKS</h1>
-                <a href="/index.html" class="footer-link active">> Home</a>
+                <a href="/index.html" class="footer-link">> Home</a>
                 <a href="/ourProjects.html" class="footer-link">> Our Projects</a>
                 <a href="/futureProjects.html" class="footer-link">> Future Projects</a>
-                <a href="/competition.html" class="footer-link">> Provita Competition</a>
+                <a href="/competition.html" class="footer-link active">> Provita Competition</a>
                 <a href="/ourLeadership.html" class="footer-link">> Our Leadership</a>
                 <a href="/contact.html" class="footer-link">> Contact Us</a>
             </div>
